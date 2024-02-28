@@ -1,0 +1,166 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+body{
+    background-color: #121212ff;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    gap: 25PX;
+    margin-left: 45px;
+    margin-right: 80px;
+    color: rgb(145, 145, 145);
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-top: 5px;
+}
+.social{
+    font-size: 25px;
+    padding: px;
+}
+.center-img{
+    display: block;
+    margin: auto;
+}
+.spacing-1{
+    padding-top:18px ;
+    padding-right: 30px;
+    color:#878778ff ;
+    font-size: larger;
+}
+.bike{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.bike-slider{
+height: 70px;
+margin: 80px 350px;
+display: flex;
+background-color: white;
+justify-content: center;
+color:#878778ff;
+
+}
+.bs-icon{
+    font-size:60px;
+    font-weight: 200;
+    transform: scale(1.7,1);
+
+}
+.no{
+    font-size: larger;
+    font-family: "Montserrat" ;
+    position: absolute;
+    top: 1717px;
+    left: 378px;
+    color: #878778ff;
+}
+.button-col{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 175px;
+    font-size: larger;
+
+}
+.def-button{
+    height:65px ;
+    width: 278px;
+    border-style: solid;
+    border-color: white;
+    background-color:#121212ff ;
+    color:white;
+    text-align: center;
+    font-size: 15px; 
+}
+.media{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.media-box{
+    display:grid;
+    grid-template-rows: 188px auto;
+    flex-direction: row;
+    width: 370px;
+    height: 430px;
+    background-color: white;
+    font-family:"Montserrat" ;
+
+}
+.bike-gallery{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 600px;
+}
+.bike-slider-2{
+    height: 70px;
+    margin: 80px 350px;
+    display: flex;
+    background-color:#121212ff;
+    justify-content: center;
+    color:#878778ff;
+}
+.no2{
+    font-size: medium;
+    font-family: "Montserrat" ;
+    position: absolute;
+    color: #878778ff;
+}
+.END-button{
+    display: block;
+    margin: auto;
+    height:50px ;
+    width: 195px;
+    border-style: solid;
+    border-color: white;
+    background-color:#121212ff ;
+    color:white;
+    text-align: center;
+    font-size: 20px; 
+    margin-bottom: 100px;
+    font-weight: 100;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 382px;
+    color: white;
+    font-family:"Montserrat" ;
+    font-size: medium;
+
+}
+.footer-social{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 325px;
+    color: white;
+    font-family:"Montserrat" ;
+    font-size: 25px;
+    width: 40%;
+    margin: auto;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 180px;
+    color: white;
+    font-family:"Montserrat" ;
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
